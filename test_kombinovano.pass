@@ -1,0 +1,59 @@
+program ime_programa;
+uses crt;
+var a, b, c, d : real;
+begin
+
+	a := 1;
+	
+	{ ovo je komentar }
+	
+	{ ovo 
+            je 
+            viselinijski komentar }
+	
+	while a < 20 do
+	begin
+		writeln(a);
+		a := a+1;
+	end;
+	
+	a := 2.0;
+  b := 12 div 3 + 1.5 * 4;
+  a := 3;
+  c := 4;
+  d := 5;
+  writeln(a);
+  writeln(b);
+  writeln(a * b);
+  
+  a := 1;
+	b := 2;
+	c := 3;
+	d := 4;
+
+	if 1 < 2 then
+		writeln(1)
+	else
+		writeln(2);
+	
+	if 2 < 1 then
+	begin
+		writeln(1);
+		writeln(3);
+	end
+	else
+	begin
+		writeln(2);
+		writeln(4);
+	end;
+	
+	writeln(b);
+	
+	if 2 < 1 then
+		b := b + 1
+	else
+		b := b - 1;
+		
+	writeln(b);
+	
+end.

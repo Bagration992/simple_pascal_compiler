@@ -1,0 +1,40 @@
+program lights;
+uses crt;
+var a, b, c, d : real;
+begin
+
+	a := 1;
+	b := 2;
+	c := 3;
+	d := 4;
+
+	if 1 < 2 then
+		writeln(1)
+	else
+		writeln(2);
+	
+	if 2 < 1 then
+	begin
+		writeln(1);
+		writeln(3);
+	end
+	else
+	begin
+		writeln(2);
+		writeln(4);
+	end;
+	
+	writeln(b);
+	
+	if 2 < 1 then
+		b := b + 1
+	else
+		b := b - 1;
+		
+	writeln(b);
+	
+	if 1<2 then
+            if 10 < 11 then
+                writeln(10);
+	
+end.

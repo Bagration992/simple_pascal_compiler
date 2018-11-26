@@ -1,0 +1,15 @@
+program lights;
+uses crt;
+var a, b : real;
+c, d : real;
+x, y : real;
+begin
+  a := 2.0;
+  b := 12 div 3 + 1.5 * 4;
+  a := 3;
+  c := 4;
+  d := 5;
+  writeln(a);
+  writeln(b);
+  writeln(a * b);
+end.

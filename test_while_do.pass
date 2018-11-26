@@ -1,0 +1,15 @@
+program lights;
+uses crt;
+var a, b, c, d : real;
+begin
+
+	a := 1;
+	
+	while (a < 100) do
+	begin
+		if (a mod 2) < 0.1 then
+			writeln(a);
+		a := a+1;
+	end;
+	
+end.
